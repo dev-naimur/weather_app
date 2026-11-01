@@ -18,7 +18,7 @@ function WeatherApp() {
                 alert('please enter a city name')
                 return
             }
-            const url = ` http://api.weatherapi.com/v1/current.json?key=${
+            const url = `http://api.weatherapi.com/v1/current.json?key=${
             import.meta.env.VITE_APP_ID}&q=${city}`;
 
             try{
